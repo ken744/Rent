@@ -54,6 +54,11 @@ body {
     padding-bottom: 10px;
   }
 }
+.bolt{
+  width: 22px;
+  height: 27.113px;
+  flex-shrink: 0;
+}
 .Process {
   width: 100%;
   height: 216px;
