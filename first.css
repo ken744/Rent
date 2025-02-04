@@ -32,6 +32,26 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
+/* mob */
+@media (max-width: 390px) {
+
+}
+@media (max-width: 1440px) {
+  .col-7 img {
+    display: none;
+  }
+}
+
+@media (max-width: 390px) {
+  .card-group {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .card-top {
+    width: 50%; /* 使每個卡片占據50%寬度 */
+  }
+}
 /* section1 */
 .c-section1 {
   width: 100%;
@@ -39,20 +59,19 @@ body {
 .c-section1-text {
   margin-left: 3%;
 
-  h3 {
+  h1 {
     width: auto;
-    font-size: 38px;
-    font-weight: 700;
+    font-size: 2.5rem;
+    font-weight: 500;
   }
-  h4 {
-    font-size: 32px;
-    font-weight: 700;
-  }
-  p{
+
+  
+ 
+  p.home-text {
     width: 420px;
-    font-size: 18px;
-    padding-bottom: 10px;
-  }
+    padding-top: 2.625rem;
+}
+
 }
 .bolt{
   width: 22px;
@@ -66,12 +85,15 @@ body {
   padding-inline: 64px;
   padding-block: 100px 0;
 }
+.c-index-mod{
+  padding: 48px 16px 28px 16px;
+}
+.c-index-mod-1{
+  padding: 16px 16px 0px 16px;
+}
 .c-index-title {
   margin-bottom: 50px;
-  h1 {
-    font-size: 32px;
-    font-weight: 700;
-  }
+
   span {
     font-size: 18px;
   }
@@ -84,13 +106,20 @@ body {
   padding-inline: 64px;
 }
 
+.c-tit{
+  width: 100%;
+  font-size: 16px;
+  font-weight: 600;
+}
+.c-bot{
+  font-size: 14px;
+  font-weight: 400;
+}
 .c-filter{
 padding-top: 0.75rem;
 padding-bottom: 1.5rem;
 border-bottom: 1px solid black;
-h4{
-  font-size: 18px;
-}
+
 }
 .c-lenav{
 padding-top: 3rem;
@@ -112,20 +141,9 @@ border-bottom: 1px solid #CACACA;
 }
 
 .card-group {
-  h3 {
-    font-size: 18px;
-    font-weight: 700;
-  }
-  h4 {
-    font-size: 16px;
-    font-weight: 700;
-  }
-  h5 {
-    text-decoration: line-through;
-    font-size: 16px;
-    color: gray;
-    font-weight: 700;
-  }
+  
+ 
+ 
   span {
     font-size: 16px;
     padding-left: 20px;
@@ -146,7 +164,30 @@ border-bottom: 1px solid #CACACA;
  
 }
 
-.h5text{
-  font-size: 16px;
-  margin: 0;
+
+.d-flex .mod-sel{
+width: 75px;
+height: 22px;
+  p{
+    font-size: 12px;
+    font-weight: 400;
+}
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.col {
+  width: 50%;  /* 讓每行顯示兩張卡片 */
+  box-sizing: border-box; /* 確保元素寬度計算正常 */
+}
+
+.card-top-1 {
+  width: 100%;  /* 讓卡片容器寬度100% */
+}
+
+.card-body {
+  padding: 1rem;
 }

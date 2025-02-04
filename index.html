@@ -25,10 +25,11 @@
 
     <title>產品租借</title>
     <link rel="stylesheet" href="./first.css" />
+    <link rel="stylesheet" href="./style0.css">
   </head>
   <body>
     <div class="c-backgrund">
-      <nav
+      <!-- <nav
         class="navbar navbar-expand-lg bg-body-tertiary fixed-top pb-5 pt-3 p-5"
       >
         <div class="container-fluid">
@@ -71,80 +72,113 @@
             </ul>
           </div>
         </div>
-      </nav>
+      </nav> -->
       <!-- section1 -->
       <div class="container-fluid c-section1">
         <div class="card text-bg-dark c-section1">
-          <img src="./image/C-main.jpg" class="card-img" alt="..." />
+          <img src="./image/C-main.jpg" class="card-img d-none d-md-block" alt="..." />
+          <img src="./image/C-main.jpg" class="card-img d-block d-md-none " style="height: 400px" alt="..." />
           <div
             class="card-img-overlay d-flex justify-content-satrt align-items-center"
           >
-            <div class="col-4 c-section1-text">
-              <h3 class="home-title">ELECTRIC GUITAR RENTAL SERVICES</h3>
-              <h4 class="home-2-title">電吉他租借服務</h4>
-              <p class="home-text">
-                電吉他租借服務說明電吉他租借服務電吉他租借服務
-                電吉他租借服務電吉他租借服務<br />
-                全台共三間台北、台中、高雄三間門市可取貨
-              </p>
-              <p class="home-text">歡迎來電洽詢</p>
+            <div class="col-6 c-section1-text ">
+              <h1 class="home-title d-none d-md-block ">ELECTRIC GUITAR RENTAL SERVICES</h1>
+              <h1 class="home-title d-block d-md-none">
+                <div class="c-mod-text">ELECTRIC <br>GUITAR RENTAL <br>SERVICES</div>
+                </h1>
+              <h4 class=" h4 home-2-title d-none d-md-block">電吉他租借服務</h4>
+              <h4 class="home-2-title d-block d-md-none">
+                <div class="mod-text-1">電吉他租借服務</div>
+              </h4>
+              <div class="c-ptext d-none d-md-block">
+                <p class=" h4 home-text">
+                  電吉他租借服務說明電吉他租借服務電吉他租借服務
+                  電吉他租借服務電吉他租借服務<br />
+                  全台共三間台北、台中、高雄三間門市可取貨
+                </p>
+                <p class="c-bottom-text">歡迎來電洽詢</p>
+              </div>
+              
             </div>
           </div>
         </div>
       </div>
       <div class="container-fluid c-Process">
-        <div class="d-flex bg-black">
-          <div class="col-1 d-flex justify-content-center align-items-center">
+        <div class="d-none d-sm-flex bg-black">
+          <div class="col-1 d-flex justify-content-center align-items-center iconf">
             <img src="./image/light.png" class="img-fluid  bolt" alt="">
             
           </div>
           <div class="col-3 text-white">
             <h2>Rental Process</h2>
-            <h3>租借流程說明</h3>
+            <h3 class="h3">租借流程說明</h3>
           </div>
-          <div class="col-7">
+          <div class="col-7 ">
             <img src="./image/Process-1.png" alt="">
           </div>
-          <div class="col-1 d-flex justify-content-center align-items-center">
+          <div class="col-1 d-flex justify-content-center align-items-center iconf">
             <img src="./image/light.png" class="img-fluid  bolt" alt="">
             
           </div>
         </div>
+        <div class="d-block d-sm-none bg-black">
+          <div class="col-12">
+            <img src="./image/Process-mod.png" alt="">
+          </div>
+
+        </div>
       </div>
     </div>
       <!-- section2 -->
-        <div class="c-section2-title">
+        <div class="c-section2-title d-none d-md-block">
             <div class="container-fluid c-index">
-              <div class="c-index-title">
-                <h1>ELECTRIC GUITAR RENTAL PRODUCTS <span> / 電吉他租借商品</span></h1>
+              <div class="c-index-title ">
+                <h1>ELECTRIC GUITAR RENTAL PRODUCTS <span class="h3"> / 電吉他租借商品</span></h1>
+              </div>
               </div>
             </div>
         </div>
-        <div class="c-section2-body">
-          <div class="container-fluid c-index-1">
+        <!-- section-mod -->
+        <div class="c-section2-title d-block d-md-none ">
+          <div class="container-fluid c-index-mod pb-0">
+            <div class="col-12">
+              <h6 class="c-tit">ELECTRIC GUITAR RENTAL PRODUCTS</h6>
+            </div>
+            <div class="col">
+              <h6 class=" h6 c-bot p-0">電吉他租借商品</h6>
+            </div>
+            <div class=" d-flex mod-sel  justify-content-end"><i class="fa-solid fa-filter pt-1"></i>
+              <h6 class=" h6 m-0">條件篩選</h6>
+            </div>
+            </div>
+          </div>
+      </div>
+
+        <div class="c-section2-body d-none d-md-block">
+          <div class="container-fluid c-index-1 ;">
             <div class="row">
-                <div class="col-3 d-flex flex-column  c-le">
+                <div class="col-12 col-md-3 d-none d-lg-block d-flex flex-column c-lerf">
                   <div class="c-filter  d-flex "><i class="fa-solid fa-filter pe-3"></i><h4>條件篩選</h4></div>
                     <div class="sort ">
-                    <div class="c-lenav">排序</div>
+                    <div class=" h5 c-lenav">排序</div>
                       <div class="sor-check pt-3">
                         <div class="ch-1 d-flex pb-4 "><input class="pe-2" type="checkbox">
-                          <h6 class="m-0 ps-2">精選</h6>
+                          <h6 class="h5 m-0 ps-2">精選</h6>
                         </div>
                         <div class="ch-1 d-flex pb-4 "><input class="pe-2" type="checkbox">
-                          <h6 class="m-0 ps-2">產品名稱:A-Z</h6>
+                          <h6 class="h5 m-0 ps-2">產品名稱:A-Z</h6>
                         </div> <div class="ch-1 d-flex pb-4 "><input class="pe-2" type="checkbox">
-                          <h6 class="m-0 ps-2">產品名稱:Z-A</h6>
+                          <h6 class="h5 m-0 ps-2">產品名稱:Z-A</h6>
                         </div> <div class="ch-1 d-flex pb-4 "><input class="pe-2" type="checkbox">
-                          <h6 class="m-0 ps-2">價格:由低到高</h6>
+                          <h6 class="h5 m-0 ps-2">價格:由低到高</h6>
                         </div> <div class="ch-1 d-flex pb-4 "><input class="pe-2" type="checkbox">
-                          <h6 class="m-0 ps-2">價格:由高到底</h6>
+                          <h6 class="h5 m-0 ps-2">價格:由高到底</h6>
                         </div>
                       </div>
                   </div>
                   
                   <div class="brand">
-                    <div class="c-lenav">品牌</div>
+                    <div class="h5 c-lenav">品牌</div>
                       <div class="brand-check pt-3">
                         <div class="ch-1 d-flex pb-4 "><input class="pe-2" type="checkbox">
                           <h6 class="m-0 ps-2">Gibson</h6>
@@ -157,34 +191,34 @@
                       </div>
                   </div>
                   <div class="rent title">
-                    <div class="c-lenav">租借地址</div>
+                    <div class="h5 c-lenav">租借地址</div>
                       <div class="brand-check pt-3">
                         <div class="ch-1 d-flex pb-4 "><input class="pe-2" type="checkbox">
-                          <h6 class="m-0 ps-2">台北店</h6>
+                          <h6 class="h5 m-0 ps-2">台北店</h6>
                         </div>
                         <div class="ch-1 d-flex pb-4 "><input class="pe-2" type="checkbox">
-                          <h6 class="m-0 ps-2">台中店</h6>
+                          <h6 class="h5 m-0 ps-2">台中店</h6>
                         </div> <div class="ch-1 d-flex pb-4 "><input class="pe-2" type="checkbox">
-                          <h6 class="m-0 ps-2">高雄店</h6>
+                          <h6 class="h5 m-0 ps-2">高雄店</h6>
                         </div>
                       </div>
                     </div>
                     <div class="rent title">
-                      <div class="c-lenav">吉他級別</div>
+                      <div class="h5 c-lenav">吉他級別</div>
                         <div class="brand-check pt-3 g-3">
                           <div class="ch-1 d-flex pb-4 "><input class="" type="checkbox">
-                            <h6 class="m-0 ps-2">初階</h6>
+                            <h6 class="h5 m-0 ps-2">初階</h6>
                           </div>
                           <div class="ch-1 d-flex pb-4 "><input class="" type="checkbox">
-                            <h6 class="m-0 ps-2">中階</h6>
+                            <h6 class="h5 m-0 ps-2">中階</h6>
                           </div> <div class="ch-1 d-flex pb-4 "><input class="" type="checkbox">
-                            <h6 class="m-0 ps-2">高階</h6>
+                            <h6 class="h5 m-0 ps-2">高階</h6>
                           </div>
                         </div>
                       </div>
                     <div class="color ">
                       <div class="color-title pb-4">
-                        <div class="c-lenav">顏色</div>
+                        <div class="h5 c-lenav">顏色</div>
                       </div>
                       <div class="c-rad d-flex flex-wrap">
                         <div class="rad p-2"><img src="./image/circle.jpg" alt=""></div>
@@ -206,11 +240,9 @@
                       </button>
                     </div>
                 </div>
-                <div class="col-9 ">
+                <div class="col-6 col-sm-6 col-md-9 col-lg-9 clo-2 ">
                   <div class="caa info">
                     <div class="c-section3">
-                      <div class="  c-index">
-                        </div>
                         <div class="card-group gap-3">
                           <div class="card-top" >
                             <img src="./image/card2-img.png" class="card-img-top" alt="..." />
@@ -369,11 +401,210 @@
                   </div>
                   <div class="btn1 d-flex justify-content-center ">
                    <button class=" btn btn-outline-dark text-dark " style="padding: 0.75rem 1.5rem; border-radius: 3.125rem; width: 15rem; height: 3rem;">
-                    <h5 class="h5text" style="font-size: 1rem; margin: 0;">瀏覽更多</h5>
+                    <h5 class="h5">瀏覽更多</h5>
                    </button>
                   </div>
 
                   
+                </div>
+            </div>
+          </div>
+        </div>
+        <!-- section-mod -->
+        <div class="c-section2-body d-block d-md-none">
+          <div class="container-fluid c-index-mod-1">
+            <div class="row">
+              <div class="col-12 col-md-3 d-none d-lg-block d-flex flex-column c-lerf">
+                  <div class="c-filter  d-flex "><i class="fa-solid fa-filter pe-3"></i><h4>條件篩選</h4></div>
+                    <div class="sort ">
+                    <div class="c-lenav">排序</div>
+                      <div class="sor-check pt-3">
+                        <div class="ch-1 d-flex pb-4 "><input class="pe-2" type="checkbox">
+                          <h6 class="m-0 ps-2">精選</h6>
+                        </div>
+                        <div class="ch-1 d-flex pb-4 "><input class="pe-2" type="checkbox">
+                          <h6 class="m-0 ps-2">產品名稱:A-Z</h6>
+                        </div> <div class="ch-1 d-flex pb-4 "><input class="pe-2" type="checkbox">
+                          <h6 class="m-0 ps-2">產品名稱:Z-A</h6>
+                        </div> <div class="ch-1 d-flex pb-4 "><input class="pe-2" type="checkbox">
+                          <h6 class="m-0 ps-2">價格:由低到高</h6>
+                        </div> <div class="ch-1 d-flex pb-4 "><input class="pe-2" type="checkbox">
+                          <h6 class="m-0 ps-2">價格:由高到底</h6>
+                        </div>
+                      </div>
+                  </div>
+                  
+                  <div class="brand">
+                    <div class="c-lenav">品牌</div>
+                      <div class="brand-check pt-3">
+                        <div class="ch-1 d-flex pb-4 "><input class="pe-2" type="checkbox">
+                          <h6 class="m-0 ps-2">Gibson</h6>
+                        </div>
+                        <div class="ch-1 d-flex pb-4 "><input class="pe-2" type="checkbox">
+                          <h6 class="m-0 ps-2">Fender</h6>
+                        </div> <div class="ch-1 d-flex pb-4 "><input class="pe-2" type="checkbox">
+                          <h6 class="m-0 ps-2">Yamaha</h6>
+                        </div>
+                      </div>
+                  </div>
+                  <div class="rent title">
+                    <div class="c-lenav">租借地址</div>
+                      <div class="brand-check pt-3">
+                        <div class="ch-1 d-flex pb-4 "><input class="pe-2" type="checkbox">
+                          <h6 class="m-0 ps-2">台北店</h6>
+                        </div>
+                        <div class="ch-1 d-flex pb-4 "><input class="pe-2" type="checkbox">
+                          <h6 class="m-0 ps-2">台中店</h6>
+                        </div> <div class="ch-1 d-flex pb-4 "><input class="pe-2" type="checkbox">
+                          <h6 class="m-0 ps-2">高雄店</h6>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="rent title">
+                      <div class="c-lenav">吉他級別</div>
+                        <div class="brand-check pt-3 g-3">
+                          <div class="ch-1 d-flex pb-4 "><input class="" type="checkbox">
+                            <h6 class="m-0 ps-2">初階</h6>
+                          </div>
+                          <div class="ch-1 d-flex pb-4 "><input class="" type="checkbox">
+                            <h6 class="m-0 ps-2">中階</h6>
+                          </div> <div class="ch-1 d-flex pb-4 "><input class="" type="checkbox">
+                            <h6 class="m-0 ps-2">高階</h6>
+                          </div>
+                        </div>
+                      </div>
+                    <div class="color ">
+                      <div class="color-title pb-4">
+                        <div class="c-lenav">顏色</div>
+                      </div>
+                      <div class="c-rad d-flex flex-wrap">
+                        <div class="rad p-2"><img src="./image/circle.jpg" alt=""></div>
+                        <div class="rad p-2"><img src="./image/circle.jpg" alt=""></div>
+                        <div class="rad p-2"><img src="./image/circle.jpg" alt=""></div>
+                        <div class="rad p-2"><img src="./image/circle.jpg" alt=""></div>
+                        <div class="rad p-2"><img src="./image/circle.jpg" alt=""></div>
+                        <div class="rad p-2"><img src="./image/cricleBroder.jpg" alt=""></div>
+                        <div class="rad p-2"><img src="./image/circle.jpg" alt=""></div>
+                        <div class="rad p-2"><img src="./image/circle.jpg" alt=""></div>
+                      </div>
+                    </div>
+                    <div class="c-bot d-flex justify-content-center " style="gap: 22px;">
+                      <button class="btn btn-dark text-white ">
+                        <h6 class="m-0">確定塞選</h6>
+                      </button>
+                      <button class="btn btn-outline-dark text-dark">
+                        <h6 class="m-0">清除塞選</h6>
+                      </button>
+                    </div>
+                </div>
+                    <div class="row row-cols-1 row-cols-sm-2 g-3 mt-0">
+                      <!-- Card 1 -->
+                      <div class="col-6 col-sm-6 col-md-4">
+                          <div class="card-top-1">
+                              <img src="./image/card2-img.png" class="card-img-top" alt="..." />
+                              <div class="card-body">
+                                  <h3 class="card-title">Product Name</h3>
+                                  <h4 class="card-text">Productttt</h4>
+                                  <div class="d-flex">
+                                      <h5 class="card-text">$1000</h5>
+                                  </div>
+                                  <p>2 COLORS</p>
+                              </div>
+                          </div>
+                      </div>
+                  
+                      <!-- Card 2 -->
+                      <div class="col-6 col-sm-6 col-md-4">
+                          <div class="card-top-1">
+                              <img src="./image/card24-img.png" class="card-img-top" alt="..." />
+                              <div class="card-body">
+                                  <h3 class="card-title">Product Name</h3>
+                                  <h4 class="card-text">Productttt</h4>
+                                  <div class="d-flex">
+                                      <h5 class="card-text">$1200</h5>
+                                  </div>
+                                  <p>2 COLORS</p>
+                              </div>
+                          </div>
+                      </div>
+
+                      <div class="col-6 col-sm-6 col-md-4">
+                          <div class="card-top-1">
+                              <img src="./image/card24-img.png" class="card-img-top" alt="..." />
+                              <div class="card-body">
+                                  <h3 class="card-title">Product Name</h3>
+                                  <h4 class="card-text">Productttt</h4>
+                                  <div class="d-flex">
+                                      <h5 class="card-text">$1200</h5>
+                                  </div>
+                                  <p>2 COLORS</p>
+                              </div>
+                          </div>
+                      </div>
+
+                      <div class="col-6 col-sm-6 col-md-4">
+                          <div class="card-top-1">
+                              <img src="./image/card25-img.png" class="card-img-top" alt="..." />
+                              <div class="card-body">
+                                  <h3 class="card-title">Product Name</h3>
+                                  <h4 class="card-text">Productttt</h4>
+                                  <div class="d-flex">
+                                      <h5 class="card-text">$1200</h5>
+                                  </div>
+                                  <p>2 COLORS</p>
+                              </div>
+                          </div>
+                      </div>
+
+                      <div class="col-6 col-sm-6 col-md-4">
+                          <div class="card-top-1">
+                              <img src="./image/card24-img.png" class="card-img-top" alt="..." />
+                              <div class="card-body">
+                                  <h3 class="card-title">Product Name</h3>
+                                  <h4 class="card-text">Productttt</h4>
+                                  <div class="d-flex">
+                                      <h5 class="card-text">$1200</h5>
+                                  </div>
+                                  <p>2 COLORS</p>
+                              </div>
+                          </div>
+                      </div>
+
+                      <div class="col-6 col-sm-6 col-md-4">
+                          <div class="card-top-1">
+                              <img src="./image/card25-img.png" class="card-img-top" alt="..." />
+                              <div class="card-body">
+                                  <h3 class="card-title">Product Name</h3>
+                                  <h4 class="card-text">Productttt</h4>
+                                  <div class="d-flex">
+                                      <h5 class="card-text">$1200</h5>
+                                  </div>
+                                  <p>2 COLORS</p>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="col-6 col-sm-6 col-md-4">
+                          <div class="card-top-1">
+                              <img src="./image/card23-img.png" class="card-img-top" alt="..." />
+                              <div class="card-body">
+                                  <h3 class="card-title">Product Name</h3>
+                                  <h4 class="card-text">Productttt</h4>
+                                  <div class="d-flex">
+                                      <h5 class="card-text">$1200</h5>
+                                  </div>
+                                  <p>2 COLORS</p>
+                              </div>
+                          </div>
+                      </div>
+
+                    </div>
+                  
+                  </div>
+                  <div class="btn1 d-flex justify-content-center ">
+                   <button class=" btn btn-outline-dark text-dark " style="padding: 0.75rem 1.5rem; border-radius: 3.125rem; width: 15rem; height: 3rem;">
+                    <h5 class="h5">瀏覽更多</h5>
+                   </button>
+                  </div>
                 </div>
             </div>
           </div>

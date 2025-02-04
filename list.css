@@ -1,229 +1,247 @@
-.container-fluid {
-    padding: 0;
-  }
-  .card {
-    border-radius: 0;
-    border: none;
-    img {
-      border-radius: 0;
-    }
-  }
-  .navbar {
-    opacity: 0.96;
-    h2 {
-      font-weight: 900;
-    }
-    span {
-      font-size: 22px;
-    }
-  }
-
-  :root {
-    --black: #000000;
-    --white: #ffffff;
-    --grey50: #F9F9F9;
-    --grey100: #DADADA;
-    --grey200: #CACACA;
-    --grey300: #BABABA;
-    --grey400: #A9A9A9;
-    --grey500: #999999;
-    --grey600: #818181;
-    --grey700: #686868;
-    --grey800: #505050;
-    --grey900: #373737;
+/* 全域 */
+body {
+  font-family: "Noto Sans TC", Arial, Helvetica, sans-serif;
 }
-
-body{
-    font-family: "Poppins", "Noto Sans TC", sans-serif;
-}
-
-/* tc */
-h1{
-    font-size: 2rem; /* 32px */
-    font-weight: 500;
-}
-h2{
-    font-size: 1.5rem; /* 24px */
-    font-weight: 500;
-}
-h3{
-    font-size: 20px;
-    font-weight: 500;
-}
-h4{
-    font-size: 18px;
-    font-weight: 500;
-}
-h5{
-    font-size: 16px;
-    font-weight: 500;
-}
-h6{
-    font-size: 14px;
-    font-weight: 400;
-}
-p{
-    font-size: 12px;
-    font-weight: 400;
-}
-
-/* eng */
-.h1{
-    font-size: 2rem; /* 32px */
-    font-weight: 600;
-}
-.h2{
-    font-size: 1.75rem; /* 28px */
-    font-weight: 600;
-}
-.h3{
-    font-size: 1.5rem; /* 24px */
-    font-weight: 600;
-}
-.h4{
-    font-size: 22px;
-    font-weight: 600;
-}
-.h5{
-    font-size: 18px;
-    font-weight: 500;
-}
-.h6{
-    font-size: 16px;
-    font-weight: 600;
-}
-.h7{
-    font-size: 14px;
-    font-weight: 600;
-}
-.p{
-    font-size: 12px;
-    font-weight: 500;
-}
-
-
-/* reset bs */
-.container-fluid{
-    margin: 0;
-    padding: 0 76px;
-
-    @media screen and (max-width: 576px) {
-    padding: 0 28px;
-    }
-}
-
-
-/* element */
-a, a:link{
-    text-decoration: none;
-}
-
-/* module */
-.list-unstyled{
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
-  
-  /* 全域 */
-  body {
-    font-family: "Noto Sans TC", Arial, Helvetica, sans-serif;
-  }
-  /* sextion1 */
-  .c-index {
-    padding-inline: 64px;
-    padding-block: 100px 0;
-  }
-  .c-pic{
-    width: 110px;
-    height: 140px;
-  }
-  .c-card{
-    padding-top: 4rem; 
-    gap: 10rem;
-  }
-  .c-bpiv .main-pic{
-    width:30rem;
-    height:44rem;
-  }
-  .c-left{
-    padding: 6rem 9rem 0  9rem;
-  }
-  .title-text{
-    margin-right: auto;
-  }
-  .c-title {
-    padding-bottom: 2.5rem;
-  }
-  .c-price-1{
-    padding-bottom: 1.5rem;
-  }
-  .c-guide{
-    border-bottom: 1px solid hsl(0, 0%, 59%) ;
-
-  }
-  /* 左邊攔 */
-  .text-br{
-    width: 7rem;
-    height: 2rem;
-    h5{
-      font-size: 1.2rem;
-    }
-  }
-  .c-color{
-    padding-top: 1rem;
-    padding-bottom: 1.5rem;
-    .c-co{
-      padding: 1.25rem 1rem;
-      h5{
-        font-size: 16px;
-        font-weight: 500;
-    }
-    }
-  }
-  .btn1{
-      width: 100%;
-      padding: 2.5rem 0 3.375rem 0;
-      border-bottom: 1px solid hsl(0, 0%, 59%) ;
-    
-    }
-  
-    .btnbot{
-      border-radius: 50px;
-      width: 100%;
-      padding: 1.5rem 1rem;
-    }
- /* section2 */
- .c-index1{
+/* sextion1 */
+.c-index {
   padding-inline: 64px;
+  padding-block: 100px 0;
+}
+.c-pic {
+  width: 110px;
+  height: 140px;
+}
+.c-card {
+  padding-top: 4rem;
+  gap: 10rem;
+}
+.c-bpiv .main-pic {
+  width: 30rem;
+  height: 44rem;
+}
+.c-left {
+  padding: 6rem 9rem 0 9rem;
+}
+.title-text {
+  margin-right: auto;
+}
+.c-title {
+  padding-bottom: 2.5rem;
+}
+.c-price-1 {
+  padding-bottom: 1.5rem;
+}
+.c-guide {
+  border-bottom: 1px solid hsl(0, 0%, 59%);
+}
+/* 左邊攔 */
+.text-br {
+  width: 7rem;
+  height: 2rem;
+}
+.c-color {
+  padding-top: 1rem;
+  padding-bottom: 1.5rem;
+  .c-co {
+    padding: 1.25rem 1rem;
+  }
+}
+.btn1 {
+  width: 100%;
+  padding: 2.5rem 0 3.375rem 0;
+  border-bottom: 1px solid hsl(0, 0%, 59%);
+}
 
- }
- .c-prduct{
-  padding: 0  4rem 4rem 4rem;
- }
- .product-body{
+.btnbot {
+  border-radius: 50px;
+  width: 100%;
+  padding: 1.5rem 1rem;
+}
+/* section2 */
+.c-index1 {
+  padding-inline: 64px;
+}
+.c-prduct {
+  padding: 0 4rem 4rem 4rem;
+}
+.product-body {
   justify-content: space-between;
-
- }
- .product-body-2{
+}
+.product-body-2 {
   gap: 12.5rem;
- }
- 
- .bo-gu{
-  padding: 0 9rem 0  9rem;
+}
 
- }
+.prduct-list-4,
+.prduct-list-5 {
+  flex: 1; /* 让两个 div 均分 flex 容器空间 */
+}
+.bo-gu {
+  padding: 0 9rem 0 9rem;
+}
 
- /* section3 */
- .c-index-title {
+/* section3 */
+.c-index-title {
   margin-bottom: 50px;
- }
+
+}
 
 .ic-1 {
-  font-size: 3rem; 
+  font-size: 3rem;
 }
 .card-group {
-  display: flex;              
-  align-items: center;        
-  justify-content: space-between; 
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+/* 通用樣式 */
+body {
+  font-family: Arial, sans-serif;
+}
+
+.container-fluid {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.c-index {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.card {
+  width: 100%;
+}
+
+/* 桌面 (大於1024px) */
+@media (min-width: 1024px) {
+  .col-7 {
+    width: 58.33333%;
+  }
+
+  .col-5 {
+    width: 41.66667%;
+  }
+
+  .product-body,
+  .product-body-2 {
+    display: flex;
+    justify-content: center; /* 让内容居中 */
+    gap: 20px; /* 控制间距 */
+  }
+
+  .product-list {
+    flex: 1;
+    min-width: 30%; /* 确保每个区块宽度一致 */
+    text-align: left;
+  }
+
+  /* 让空的占位 div 占据空间但不显示 */
+  .empty-placeholder {
+    visibility: hidden;
+    min-width: 30%;
+  }
+
+  .card-group {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .card {
+    width: 18rem;
+  }
+}
+
+/* 平板 (768px - 1024px) */
+@media (max-width: 1024px) and (min-width: 768px) {
+  .col-7 {
+    width: 60%;
+  }
+
+  .col-5 {
+    width: 40%;
+  }
+
+  .card-group {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .card {
+    width: 15rem;
+    margin-bottom: 20px;
+  }
+}
+
+/* 手機 (小於768px) */
+@media (max-width: 768px) {
+  .c-pict {
+    display: block;
+    text-align: center;
+  }
+
+  .c-pic {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding-top: 1rem;
+  }
+
+  .c-title-text {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  .col-7,
+  .col-5 {
+    width: 100%;
+    padding: 0;
+  }
+
+  .card-group {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+
+  .icon {
+    font-size: 30px;
+  }
+
+  .c-section3 .c-index-title {
+    text-align: center;
+  }
+
+  .product-body,
+  .product-body-2 {
+    flex-direction: column;
+  }
+
+  .btn1 {
+    text-align: center;
+  }
+}
+.product-body,
+.product-body-2 {
+  display: flex;
+  flex-wrap: wrap; /* 允許換行 */
+  justify-content: space-between;
+  gap: 20px;
+}
+/* RWD 響應式設計 */
+@media (max-width: 992px) {
+  /* 平板（md） */
+  .product-list {
+    flex-basis: 48%; /* 每個項目 50% 宽度 */
+  }
+}
+
+@media (max-width: 576px) {
+  /* 手機（sm） */
+  .product-list {
+    flex-basis: 100%; /* 變成單列 */
+  }
 }
