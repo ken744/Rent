@@ -1,1 +1,1 @@
-https://ken744.github.io/Rent/
+https://ken744.github.io/index/
